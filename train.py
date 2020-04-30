@@ -6,7 +6,10 @@ import matplotlib.pyplot as plt
 from glob import glob
 import tensorflow as tf
 from tensorflow import keras
+import os
 
+#Stop tensorflow from seeing my gpu bc I can't get it to use my gpu correctly anyway
+os.environ["CUDA_VISIBLE_DEVICES"] = "-1"
 
 # Model Structure
 model = keras.Sequential([
@@ -19,72 +22,66 @@ model = keras.Sequential([
     keras.layers.Conv2D(128, 3, padding = 'same', activation='relu'),
     keras.layers.Conv2D(256, 3, padding = 'same', activation='relu'),
     keras.layers.MaxPool2D(pool_size = 2, padding = 'same'), 
-    keras.layers.Dense(128, input_shape=np.asarray([30,40,3]), activation='relu'),
-    keras.layers.Dense(3, input_shape=np.asarray([30,40,3]), activation='softmax')
+    keras.layers.Flatten(input_shape=(30,40,3)),
+    keras.layers.Dense(128, activation='relu'),
+    keras.layers.Dense(4)
     ])
 
 # Compile the model
 model.compile(optimizer='adam', 
-        loss = tf.keras.losses.CategoricalCrossentropy(),
+        loss = tf.keras.losses.SparseCategoricalCrossentropy(from_logits=True),
         metrics = ['accuracy'])
-
-# Create Model callback to save checkpoint with the best weights
-model_checkpoint = keras.callbacks.ModelCheckpoint('checkpoints', monitor="loss", verbose=0)
 
 # train model on sections of the dataset
 # There are approximately 10,000 images in the training dataset
-# Train on sections of the dataset so it can fit in my GPU memory (8GB)
+# For some reason data can't exceed 10% of my system memory (16GB -> 1.6GB)
 
 train_imgs_0 = []
 train_labels_0 = []
 
-for f in glob('DATA/TRAIN/EOSINOPHIL/*'):
-    im = np.asarray(Image.open(f)).astype(np.float16)
-    train_imgs_0.append(im)
-    train_labels_0.append(0)
+file_names = glob('DATA/TRAIN/EOSINOPHIL/*') + glob('DATA/TRAIN/LYMPHOCYTE/*') + glob('DATA/TRAIN/MONOCYTE/*') + glob('DATA/TRAIN/NEUTROPHIL/*')
 
-for f in glob('DATA/TRAIN/LYMPHOCYTE/*'):
-    im = np.asarray(Image.open(f)).astype(np.float16)
-    train_imgs_0.append(im)
-    train_labels_0.append(1)
+# Make a dictionary mapping the first letter of the cell type to the label integer
+class_dict = {}
+class_dict['E'] = 0
+class_dict['L'] = 1
+class_dict['M'] = 2
+class_dict['N'] = 3
 
-for f in glob('DATA/TRAIN/MONOCYTE/*'):
-    im = np.asarray(Image.open(f)).astype(np.float16)
-    train_imgs_0.append(im)
-    train_labels_0.append(2)
+# Shuffle file names to mix up order of training
+np.random.shuffle(file_names)
+num_files = len(file_names)
+num_sections = 4
+section_size = num_files // num_sections
+true_epochs = 10
 
-for f in glob('DATA/TRAIN/NEUTROPHIL/*'):
-    im = np.asarray(Image.open(f)).astype(np.float16)
-    train_imgs_0.append(im)
-    train_labels_0.append(3)
-
-# Shuffle the dataset and labels with the same shuffle
-permutation = np.arange(len(train_imgs_0))
-np.random.shuffle(permutation)
-train_imgs = []
-train_labels = []
-for i in range(len(train_imgs_0)):
-    index = permutation[i]
-    train_imgs.append(train_imgs_0[index])
-    train_labels.append(train_labels_0[index])
-
-del train_imgs_0
-del train_labels_0
-train_labels = np.asarray(train_labels).astype(np.float16)
-print("Imgs size: ", sys.getsizeof(train_imgs))
-print("Labels size: ", sys.getsizeof(train_labels))
-
-print(tf.shape(train_imgs))
-print(tf.shape(train_labels))
-
-# use Model.fit() to train the model
-batch_size = 100
-num_batches = len(train_imgs) // batch_size
-for batch in range(len(num_batches)):
-    if (((batch+1)*batch_size) > len(train_imgs)):
-        break
-    model.fit(train_imgs[batch], train_labels[batch], batch_size=4, epochs=1, verbose=1, callbacks=[model_checkpoint], shuffle=False)
-
+for e in range(true_epochs):
+    for s in range(num_sections):
+    
+        # Get the file names for this section
+        # handle case where num_files % num_sections != 0
+        section_files = []
+        if (s == (num_sections - 1)):
+            section_files = file_names[s*section_size:]
+        else:
+            section_files = file_names[s*section_size:(s+1)*section_size]
+    
+        # Make train_imgs and train_labels for this section
+        train_imgs = []
+        train_labels = []
+        for f in section_files:
+            im = np.asarray(Image.open(f)).astype(np.float16)
+            train_imgs.append(im)
+            # 11th letter in file name is the first letter of the cell type
+            label = class_dict[f[11]]
+            train_labels.append(3)
+     
+        train_imgs = np.asarray(train_imgs)
+        train_labels = np.asarray(train_labels).astype(np.float16)
+     
+        # use Model.fit() to train the model
+        model.fit(train_imgs, train_labels, epochs=1, initial_epoch=num_sections*e + s, verbose=1, shuffle=False)
+     
 # Save Model weights
 model.save_weights('checkpoints/' + datetime.now().strftime("%m-%d-%Y-%H:%M:%S") + "_parameters")
-
+     
