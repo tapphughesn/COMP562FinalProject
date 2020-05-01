@@ -50,37 +50,22 @@ class_dict['N'] = 3
 
 # Shuffle file names to mix up order of training
 np.random.shuffle(file_names)
-num_files = len(file_names)
-num_sections = 4
-section_size = num_files // num_sections
-true_epochs = 10
 
-for e in range(true_epochs):
-    for s in range(num_sections):
-    
-        # Get the file names for this section
-        # handle case where num_files % num_sections != 0
-        section_files = []
-        if (s == (num_sections - 1)):
-            section_files = file_names[s*section_size:]
-        else:
-            section_files = file_names[s*section_size:(s+1)*section_size]
-    
-        # Make train_imgs and train_labels for this section
-        train_imgs = []
-        train_labels = []
-        for f in section_files:
-            im = np.asarray(Image.open(f)).astype(np.float16)
-            train_imgs.append(im)
-            # 11th letter in file name is the first letter of the cell type
-            label = class_dict[f[11]]
-            train_labels.append(3)
-     
-        train_imgs = np.asarray(train_imgs)
-        train_labels = np.asarray(train_labels).astype(np.float16)
-     
-        # use Model.fit() to train the model
-        model.fit(train_imgs, train_labels, epochs=1, initial_epoch=num_sections*e + s, verbose=1, shuffle=False)
+# Make train_imgs and train_labels for this section
+train_imgs = []
+train_labels = []
+for f in file_names:
+    im = np.asarray(Image.open(f)).astype(np.float16)
+    train_imgs.append(im)
+    # 11th letter in file name is the first letter of the cell type
+    label = class_dict[f[11]]
+    train_labels.append(3)
+
+train_imgs = np.asarray(train_imgs)
+train_labels = np.asarray(train_labels).astype(np.float16)
+
+# use Model.fit() to train the model
+model.fit(train_imgs, train_labels, epochs=1, verbose=1, shuffle=False)
      
 # Save Model weights
 model.save_weights('checkpoints/' + datetime.now().strftime("%m-%d-%Y-%H:%M:%S") + "_parameters")
