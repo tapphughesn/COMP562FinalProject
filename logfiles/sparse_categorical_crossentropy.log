@@ -1,0 +1,439 @@
+
+Train on 9957 samples, validate on 2487 samples
+Epoch 1/100
+9920/9957 [============================>.] - ETA: 0s - loss: 1.3790 - accuracy: 0.3450   
+Epoch 00001: saving model to checkpoints/sparse_categorical_crossentropy.cpkt
+9957/9957 [==============================] - 11s 1ms/sample - loss: 1.3777 - accuracy: 0.3455 - val_loss: 1.0471 - val_accuracy: 0.4889
+Epoch 2/100
+9920/9957 [============================>.] - ETA: 0s - loss: 1.0353 - accuracy: 0.5003
+Epoch 00002: saving model to checkpoints/sparse_categorical_crossentropy.cpkt
+9957/9957 [==============================] - 7s 674us/sample - loss: 1.0346 - accuracy: 0.5007 - val_loss: 0.9061 - val_accuracy: 0.5714
+Epoch 3/100
+9920/9957 [============================>.] - ETA: 0s - loss: 0.8238 - accuracy: 0.6200
+Epoch 00003: saving model to checkpoints/sparse_categorical_crossentropy.cpkt
+9957/9957 [==============================] - 7s 674us/sample - loss: 0.8228 - accuracy: 0.6206 - val_loss: 0.8144 - val_accuracy: 0.6478
+Epoch 4/100
+9920/9957 [============================>.] - ETA: 0s - loss: 0.5256 - accuracy: 0.7654
+Epoch 00004: saving model to checkpoints/sparse_categorical_crossentropy.cpkt
+9957/9957 [==============================] - 7s 715us/sample - loss: 0.5253 - accuracy: 0.7654 - val_loss: 0.9654 - val_accuracy: 0.6719
+Epoch 5/100
+9920/9957 [============================>.] - ETA: 0s - loss: 0.4344 - accuracy: 0.8029
+Epoch 00005: saving model to checkpoints/sparse_categorical_crossentropy.cpkt
+9957/9957 [==============================] - 7s 675us/sample - loss: 0.4340 - accuracy: 0.8030 - val_loss: 1.3852 - val_accuracy: 0.6494
+Epoch 6/100
+9920/9957 [============================>.] - ETA: 0s - loss: 0.3574 - accuracy: 0.8428
+Epoch 00006: saving model to checkpoints/sparse_categorical_crossentropy.cpkt
+9957/9957 [==============================] - 7s 683us/sample - loss: 0.3571 - accuracy: 0.8428 - val_loss: 1.5513 - val_accuracy: 0.6353
+Epoch 7/100
+9920/9957 [============================>.] - ETA: 0s - loss: 0.2851 - accuracy: 0.8749
+Epoch 00007: saving model to checkpoints/sparse_categorical_crossentropy.cpkt
+9957/9957 [==============================] - 7s 697us/sample - loss: 0.2847 - accuracy: 0.8750 - val_loss: 1.3148 - val_accuracy: 0.6803
+Epoch 8/100
+9920/9957 [============================>.] - ETA: 0s - loss: 0.2441 - accuracy: 0.8975
+Epoch 00008: saving model to checkpoints/sparse_categorical_crossentropy.cpkt
+9957/9957 [==============================] - 7s 684us/sample - loss: 0.2438 - accuracy: 0.8976 - val_loss: 1.2942 - val_accuracy: 0.6811
+Epoch 9/100
+9920/9957 [============================>.] - ETA: 0s - loss: 0.2533 - accuracy: 0.8972
+Epoch 00009: saving model to checkpoints/sparse_categorical_crossentropy.cpkt
+9957/9957 [==============================] - 7s 669us/sample - loss: 0.2531 - accuracy: 0.8973 - val_loss: 1.3993 - val_accuracy: 0.6124
+Epoch 10/100
+9920/9957 [============================>.] - ETA: 0s - loss: 0.2536 - accuracy: 0.8944
+Epoch 00010: saving model to checkpoints/sparse_categorical_crossentropy.cpkt
+9957/9957 [==============================] - 7s 679us/sample - loss: 0.2532 - accuracy: 0.8945 - val_loss: 0.9858 - val_accuracy: 0.7141
+Epoch 11/100
+9920/9957 [============================>.] - ETA: 0s - loss: 0.1516 - accuracy: 0.9388
+Epoch 00011: saving model to checkpoints/sparse_categorical_crossentropy.cpkt
+9957/9957 [==============================] - 7s 696us/sample - loss: 0.1515 - accuracy: 0.9387 - val_loss: 1.2259 - val_accuracy: 0.7117
+Epoch 12/100
+9888/9957 [============================>.] - ETA: 0s - loss: 0.1462 - accuracy: 0.9445
+Epoch 00012: saving model to checkpoints/sparse_categorical_crossentropy.cpkt
+9957/9957 [==============================] - 7s 688us/sample - loss: 0.1458 - accuracy: 0.9445 - val_loss: 1.5719 - val_accuracy: 0.7246
+Epoch 13/100
+9920/9957 [============================>.] - ETA: 0s - loss: 0.1114 - accuracy: 0.9575
+Epoch 00013: saving model to checkpoints/sparse_categorical_crossentropy.cpkt
+9957/9957 [==============================] - 7s 669us/sample - loss: 0.1112 - accuracy: 0.9575 - val_loss: 1.6637 - val_accuracy: 0.7105
+Epoch 14/100
+9920/9957 [============================>.] - ETA: 0s - loss: 0.1299 - accuracy: 0.9510
+Epoch 00014: saving model to checkpoints/sparse_categorical_crossentropy.cpkt
+9957/9957 [==============================] - 7s 673us/sample - loss: 0.1296 - accuracy: 0.9512 - val_loss: 1.4186 - val_accuracy: 0.7209
+Epoch 15/100
+9920/9957 [============================>.] - ETA: 0s - loss: 0.1030 - accuracy: 0.9628
+Epoch 00015: saving model to checkpoints/sparse_categorical_crossentropy.cpkt
+9957/9957 [==============================] - 7s 679us/sample - loss: 0.1028 - accuracy: 0.9629 - val_loss: 1.2180 - val_accuracy: 0.7346
+Epoch 16/100
+9920/9957 [============================>.] - ETA: 0s - loss: 0.0699 - accuracy: 0.9753
+Epoch 00016: saving model to checkpoints/sparse_categorical_crossentropy.cpkt
+9957/9957 [==============================] - 7s 678us/sample - loss: 0.0701 - accuracy: 0.9751 - val_loss: 1.8881 - val_accuracy: 0.7230
+Epoch 17/100
+9920/9957 [============================>.] - ETA: 0s - loss: 0.0788 - accuracy: 0.9703
+Epoch 00017: saving model to checkpoints/sparse_categorical_crossentropy.cpkt
+9957/9957 [==============================] - 7s 682us/sample - loss: 0.0786 - accuracy: 0.9704 - val_loss: 2.0177 - val_accuracy: 0.6719
+Epoch 18/100
+9888/9957 [============================>.] - ETA: 0s - loss: 0.0635 - accuracy: 0.9771
+Epoch 00018: saving model to checkpoints/sparse_categorical_crossentropy.cpkt
+9957/9957 [==============================] - 7s 689us/sample - loss: 0.0632 - accuracy: 0.9773 - val_loss: 2.0274 - val_accuracy: 0.7242
+Epoch 19/100
+9888/9957 [============================>.] - ETA: 0s - loss: 0.0566 - accuracy: 0.9804
+Epoch 00019: saving model to checkpoints/sparse_categorical_crossentropy.cpkt
+9957/9957 [==============================] - 7s 673us/sample - loss: 0.0571 - accuracy: 0.9802 - val_loss: 2.0063 - val_accuracy: 0.7012
+Epoch 20/100
+9920/9957 [============================>.] - ETA: 0s - loss: 0.0567 - accuracy: 0.9789
+Epoch 00020: saving model to checkpoints/sparse_categorical_crossentropy.cpkt
+9957/9957 [==============================] - 7s 666us/sample - loss: 0.0567 - accuracy: 0.9788 - val_loss: 1.8530 - val_accuracy: 0.6578
+Epoch 21/100
+9920/9957 [============================>.] - ETA: 0s - loss: 0.0654 - accuracy: 0.9774
+Epoch 00021: saving model to checkpoints/sparse_categorical_crossentropy.cpkt
+9957/9957 [==============================] - 7s 668us/sample - loss: 0.0652 - accuracy: 0.9775 - val_loss: 1.8673 - val_accuracy: 0.7000
+Epoch 22/100
+9920/9957 [============================>.] - ETA: 0s - loss: 0.0564 - accuracy: 0.9809
+Epoch 00022: saving model to checkpoints/sparse_categorical_crossentropy.cpkt
+9957/9957 [==============================] - 7s 674us/sample - loss: 0.0564 - accuracy: 0.9809 - val_loss: 1.9110 - val_accuracy: 0.6904
+Epoch 23/100
+9920/9957 [============================>.] - ETA: 0s - loss: 0.0487 - accuracy: 0.9829
+Epoch 00023: saving model to checkpoints/sparse_categorical_crossentropy.cpkt
+9957/9957 [==============================] - 7s 675us/sample - loss: 0.0486 - accuracy: 0.9829 - val_loss: 2.4108 - val_accuracy: 0.6992
+Epoch 24/100
+9920/9957 [============================>.] - ETA: 0s - loss: 0.0329 - accuracy: 0.9894
+Epoch 00024: saving model to checkpoints/sparse_categorical_crossentropy.cpkt
+9957/9957 [==============================] - 7s 677us/sample - loss: 0.0332 - accuracy: 0.9893 - val_loss: 3.6227 - val_accuracy: 0.6518
+Epoch 25/100
+9920/9957 [============================>.] - ETA: 0s - loss: 0.0427 - accuracy: 0.9863
+Epoch 00025: saving model to checkpoints/sparse_categorical_crossentropy.cpkt
+9957/9957 [==============================] - 7s 677us/sample - loss: 0.0425 - accuracy: 0.9863 - val_loss: 2.3832 - val_accuracy: 0.7089
+Epoch 26/100
+9920/9957 [============================>.] - ETA: 0s - loss: 0.0540 - accuracy: 0.9825    
+Epoch 00026: saving model to checkpoints/sparse_categorical_crossentropy.cpkt
+9957/9957 [==============================] - 7s 679us/sample - loss: 0.0538 - accuracy: 0.9825 - val_loss: 2.5531 - val_accuracy: 0.6450
+Epoch 27/100
+9920/9957 [============================>.] - ETA: 0s - loss: 0.0517 - accuracy: 0.9855
+Epoch 00027: saving model to checkpoints/sparse_categorical_crossentropy.cpkt
+9957/9957 [==============================] - 7s 678us/sample - loss: 0.0515 - accuracy: 0.9855 - val_loss: 1.9312 - val_accuracy: 0.6976
+Epoch 28/100
+9920/9957 [============================>.] - ETA: 0s - loss: 0.0356 - accuracy: 0.9874
+Epoch 00028: saving model to checkpoints/sparse_categorical_crossentropy.cpkt
+9957/9957 [==============================] - 7s 667us/sample - loss: 0.0355 - accuracy: 0.9874 - val_loss: 2.5292 - val_accuracy: 0.7177
+Epoch 29/100
+9920/9957 [============================>.] - ETA: 0s - loss: 0.0285 - accuracy: 0.9903    
+Epoch 00029: saving model to checkpoints/sparse_categorical_crossentropy.cpkt
+9957/9957 [==============================] - 7s 671us/sample - loss: 0.0284 - accuracy: 0.9904 - val_loss: 2.7528 - val_accuracy: 0.7093
+Epoch 30/100
+9920/9957 [============================>.] - ETA: 0s - loss: 0.0415 - accuracy: 0.9865
+Epoch 00030: saving model to checkpoints/sparse_categorical_crossentropy.cpkt
+9957/9957 [==============================] - 7s 670us/sample - loss: 0.0417 - accuracy: 0.9864 - val_loss: 2.9624 - val_accuracy: 0.6988
+Epoch 31/100
+9920/9957 [============================>.] - ETA: 0s - loss: 0.0336 - accuracy: 0.9892
+Epoch 00031: saving model to checkpoints/sparse_categorical_crossentropy.cpkt
+9957/9957 [==============================] - 7s 677us/sample - loss: 0.0337 - accuracy: 0.9892 - val_loss: 3.6093 - val_accuracy: 0.6570
+Epoch 32/100
+9920/9957 [============================>.] - ETA: 0s - loss: 0.0244 - accuracy: 0.9914
+Epoch 00032: saving model to checkpoints/sparse_categorical_crossentropy.cpkt
+9957/9957 [==============================] - 7s 669us/sample - loss: 0.0243 - accuracy: 0.9915 - val_loss: 2.5837 - val_accuracy: 0.7065
+Epoch 33/100
+9920/9957 [============================>.] - ETA: 0s - loss: 0.0240 - accuracy: 0.9920    
+Epoch 00033: saving model to checkpoints/sparse_categorical_crossentropy.cpkt
+9957/9957 [==============================] - 7s 678us/sample - loss: 0.0239 - accuracy: 0.9921 - val_loss: 2.9077 - val_accuracy: 0.6775
+Epoch 34/100
+9920/9957 [============================>.] - ETA: 0s - loss: 0.0313 - accuracy: 0.9893
+Epoch 00034: saving model to checkpoints/sparse_categorical_crossentropy.cpkt
+9957/9957 [==============================] - 7s 684us/sample - loss: 0.0316 - accuracy: 0.9893 - val_loss: 2.2311 - val_accuracy: 0.7354
+Epoch 35/100
+9920/9957 [============================>.] - ETA: 0s - loss: 0.0396 - accuracy: 0.9866
+Epoch 00035: saving model to checkpoints/sparse_categorical_crossentropy.cpkt
+9957/9957 [==============================] - 7s 674us/sample - loss: 0.0396 - accuracy: 0.9865 - val_loss: 3.4664 - val_accuracy: 0.6441
+Epoch 36/100
+9920/9957 [============================>.] - ETA: 0s - loss: 0.0367 - accuracy: 0.9877
+Epoch 00036: saving model to checkpoints/sparse_categorical_crossentropy.cpkt
+9957/9957 [==============================] - 7s 672us/sample - loss: 0.0366 - accuracy: 0.9877 - val_loss: 2.9337 - val_accuracy: 0.6819
+Epoch 37/100
+9920/9957 [============================>.] - ETA: 0s - loss: 0.0271 - accuracy: 0.9916
+Epoch 00037: saving model to checkpoints/sparse_categorical_crossentropy.cpkt
+9957/9957 [==============================] - 7s 675us/sample - loss: 0.0270 - accuracy: 0.9917 - val_loss: 2.3829 - val_accuracy: 0.7149
+Epoch 38/100
+9920/9957 [============================>.] - ETA: 0s - loss: 0.0228 - accuracy: 0.9925
+Epoch 00038: saving model to checkpoints/sparse_categorical_crossentropy.cpkt
+9957/9957 [==============================] - 7s 679us/sample - loss: 0.0227 - accuracy: 0.9926 - val_loss: 3.0132 - val_accuracy: 0.6819
+Epoch 39/100
+9920/9957 [============================>.] - ETA: 0s - loss: 0.0266 - accuracy: 0.9921    
+Epoch 00039: saving model to checkpoints/sparse_categorical_crossentropy.cpkt
+9957/9957 [==============================] - 7s 671us/sample - loss: 0.0265 - accuracy: 0.9922 - val_loss: 2.0981 - val_accuracy: 0.6868
+Epoch 40/100
+9920/9957 [============================>.] - ETA: 0s - loss: 0.0224 - accuracy: 0.9933
+Epoch 00040: saving model to checkpoints/sparse_categorical_crossentropy.cpkt
+9957/9957 [==============================] - 7s 676us/sample - loss: 0.0224 - accuracy: 0.9934 - val_loss: 2.5695 - val_accuracy: 0.6972
+Epoch 41/100
+9920/9957 [============================>.] - ETA: 0s - loss: 0.0338 - accuracy: 0.9890
+Epoch 00041: saving model to checkpoints/sparse_categorical_crossentropy.cpkt
+9957/9957 [==============================] - 7s 683us/sample - loss: 0.0343 - accuracy: 0.9890 - val_loss: 3.7072 - val_accuracy: 0.6988
+Epoch 42/100
+9920/9957 [============================>.] - ETA: 0s - loss: 0.0365 - accuracy: 0.9876    
+Epoch 00042: saving model to checkpoints/sparse_categorical_crossentropy.cpkt
+9957/9957 [==============================] - 7s 672us/sample - loss: 0.0365 - accuracy: 0.9876 - val_loss: 3.7767 - val_accuracy: 0.6695
+Epoch 43/100
+9920/9957 [============================>.] - ETA: 0s - loss: 0.0182 - accuracy: 0.9940    
+Epoch 00043: saving model to checkpoints/sparse_categorical_crossentropy.cpkt
+9957/9957 [==============================] - 7s 676us/sample - loss: 0.0181 - accuracy: 0.9940 - val_loss: 4.1558 - val_accuracy: 0.6562
+Epoch 44/100
+9920/9957 [============================>.] - ETA: 0s - loss: 0.0079 - accuracy: 0.9979
+Epoch 00044: saving model to checkpoints/sparse_categorical_crossentropy.cpkt
+9957/9957 [==============================] - 7s 678us/sample - loss: 0.0079 - accuracy: 0.9979 - val_loss: 3.5344 - val_accuracy: 0.6900
+Epoch 45/100
+9920/9957 [============================>.] - ETA: 0s - loss: 0.0180 - accuracy: 0.9951    
+Epoch 00045: saving model to checkpoints/sparse_categorical_crossentropy.cpkt
+9957/9957 [==============================] - 7s 676us/sample - loss: 0.0180 - accuracy: 0.9951 - val_loss: 1.8897 - val_accuracy: 0.7238
+Epoch 46/100
+9920/9957 [============================>.] - ETA: 0s - loss: 0.0358 - accuracy: 0.9883
+Epoch 00046: saving model to checkpoints/sparse_categorical_crossentropy.cpkt
+9957/9957 [==============================] - 7s 688us/sample - loss: 0.0357 - accuracy: 0.9883 - val_loss: 3.6735 - val_accuracy: 0.6687
+Epoch 47/100
+9920/9957 [============================>.] - ETA: 0s - loss: 0.0237 - accuracy: 0.9923    
+Epoch 00047: saving model to checkpoints/sparse_categorical_crossentropy.cpkt
+9957/9957 [==============================] - 7s 671us/sample - loss: 0.0237 - accuracy: 0.9924 - val_loss: 3.3175 - val_accuracy: 0.6836
+Epoch 48/100
+9920/9957 [============================>.] - ETA: 0s - loss: 0.0203 - accuracy: 0.9932    
+Epoch 00048: saving model to checkpoints/sparse_categorical_crossentropy.cpkt
+9957/9957 [==============================] - 7s 674us/sample - loss: 0.0202 - accuracy: 0.9933 - val_loss: 2.9997 - val_accuracy: 0.7117
+Epoch 49/100
+9920/9957 [============================>.] - ETA: 0s - loss: 0.0216 - accuracy: 0.9942    
+Epoch 00049: saving model to checkpoints/sparse_categorical_crossentropy.cpkt
+9957/9957 [==============================] - 7s 670us/sample - loss: 0.0221 - accuracy: 0.9941 - val_loss: 3.1442 - val_accuracy: 0.6663
+Epoch 50/100
+9920/9957 [============================>.] - ETA: 0s - loss: 0.0359 - accuracy: 0.9880
+Epoch 00050: saving model to checkpoints/sparse_categorical_crossentropy.cpkt
+9957/9957 [==============================] - 7s 678us/sample - loss: 0.0358 - accuracy: 0.9880 - val_loss: 3.2649 - val_accuracy: 0.6795
+Epoch 51/100
+9920/9957 [============================>.] - ETA: 0s - loss: 0.0142 - accuracy: 0.9949    
+Epoch 00051: saving model to checkpoints/sparse_categorical_crossentropy.cpkt
+9957/9957 [==============================] - 7s 677us/sample - loss: 0.0142 - accuracy: 0.9948 - val_loss: 4.0435 - val_accuracy: 0.6703
+Epoch 52/100
+9920/9957 [============================>.] - ETA: 0s - loss: 0.0126 - accuracy: 0.9961    
+Epoch 00052: saving model to checkpoints/sparse_categorical_crossentropy.cpkt
+9957/9957 [==============================] - 7s 674us/sample - loss: 0.0127 - accuracy: 0.9961 - val_loss: 3.2874 - val_accuracy: 0.6900
+Epoch 53/100
+9920/9957 [============================>.] - ETA: 0s - loss: 0.0075 - accuracy: 0.9984
+Epoch 00053: saving model to checkpoints/sparse_categorical_crossentropy.cpkt
+9957/9957 [==============================] - 7s 680us/sample - loss: 0.0074 - accuracy: 0.9984 - val_loss: 3.5221 - val_accuracy: 0.7037
+Epoch 54/100
+9920/9957 [============================>.] - ETA: 0s - loss: 0.0168 - accuracy: 0.9948    
+Epoch 00054: saving model to checkpoints/sparse_categorical_crossentropy.cpkt
+9957/9957 [==============================] - 7s 687us/sample - loss: 0.0175 - accuracy: 0.9947 - val_loss: 4.0752 - val_accuracy: 0.6723
+Epoch 55/100
+9920/9957 [============================>.] - ETA: 0s - loss: 0.0561 - accuracy: 0.9848    
+Epoch 00055: saving model to checkpoints/sparse_categorical_crossentropy.cpkt
+9957/9957 [==============================] - 7s 675us/sample - loss: 0.0561 - accuracy: 0.9847 - val_loss: 3.0847 - val_accuracy: 0.6783
+Epoch 56/100
+9920/9957 [============================>.] - ETA: 0s - loss: 0.0191 - accuracy: 0.9948
+Epoch 00056: saving model to checkpoints/sparse_categorical_crossentropy.cpkt
+9957/9957 [==============================] - 7s 685us/sample - loss: 0.0191 - accuracy: 0.9948 - val_loss: 2.8851 - val_accuracy: 0.6755
+Epoch 57/100
+9888/9957 [============================>.] - ETA: 0s - loss: 0.0102 - accuracy: 0.9970
+Epoch 00057: saving model to checkpoints/sparse_categorical_crossentropy.cpkt
+9957/9957 [==============================] - 7s 667us/sample - loss: 0.0102 - accuracy: 0.9970 - val_loss: 3.4815 - val_accuracy: 0.6928
+Epoch 58/100
+9920/9957 [============================>.] - ETA: 0s - loss: 0.0133 - accuracy: 0.9960
+Epoch 00058: saving model to checkpoints/sparse_categorical_crossentropy.cpkt
+9957/9957 [==============================] - 7s 668us/sample - loss: 0.0133 - accuracy: 0.9960 - val_loss: 3.4325 - val_accuracy: 0.6779
+Epoch 59/100
+9920/9957 [============================>.] - ETA: 0s - loss: 0.0412 - accuracy: 0.9886
+Epoch 00059: saving model to checkpoints/sparse_categorical_crossentropy.cpkt
+9957/9957 [==============================] - 7s 668us/sample - loss: 0.0411 - accuracy: 0.9887 - val_loss: 2.1708 - val_accuracy: 0.6924
+Epoch 60/100
+9920/9957 [============================>.] - ETA: 0s - loss: 0.0156 - accuracy: 0.9956
+Epoch 00060: saving model to checkpoints/sparse_categorical_crossentropy.cpkt
+9957/9957 [==============================] - 7s 672us/sample - loss: 0.0155 - accuracy: 0.9956 - val_loss: 3.2040 - val_accuracy: 0.6832
+Epoch 61/100
+9920/9957 [============================>.] - ETA: 0s - loss: 0.0142 - accuracy: 0.9953
+Epoch 00061: saving model to checkpoints/sparse_categorical_crossentropy.cpkt
+9957/9957 [==============================] - 7s 675us/sample - loss: 0.0141 - accuracy: 0.9953 - val_loss: 4.1203 - val_accuracy: 0.6594
+Epoch 62/100
+9920/9957 [============================>.] - ETA: 0s - loss: 0.0226 - accuracy: 0.9926
+Epoch 00062: saving model to checkpoints/sparse_categorical_crossentropy.cpkt
+9957/9957 [==============================] - 7s 673us/sample - loss: 0.0225 - accuracy: 0.9927 - val_loss: 3.3382 - val_accuracy: 0.6779
+Epoch 63/100
+9920/9957 [============================>.] - ETA: 0s - loss: 0.1045 - accuracy: 0.9665    
+Epoch 00063: saving model to checkpoints/sparse_categorical_crossentropy.cpkt
+9957/9957 [==============================] - 7s 681us/sample - loss: 0.1044 - accuracy: 0.9665 - val_loss: 2.3561 - val_accuracy: 0.6956
+Epoch 64/100
+9920/9957 [============================>.] - ETA: 0s - loss: 0.0198 - accuracy: 0.9940
+Epoch 00064: saving model to checkpoints/sparse_categorical_crossentropy.cpkt
+9957/9957 [==============================] - 7s 676us/sample - loss: 0.0198 - accuracy: 0.9940 - val_loss: 2.8172 - val_accuracy: 0.7053
+Epoch 65/100
+9920/9957 [============================>.] - ETA: 0s - loss: 0.0092 - accuracy: 0.9971
+Epoch 00065: saving model to checkpoints/sparse_categorical_crossentropy.cpkt
+9957/9957 [==============================] - 7s 676us/sample - loss: 0.0092 - accuracy: 0.9971 - val_loss: 3.3486 - val_accuracy: 0.7045
+Epoch 66/100
+9920/9957 [============================>.] - ETA: 0s - loss: 0.0219 - accuracy: 0.9939    
+Epoch 00066: saving model to checkpoints/sparse_categorical_crossentropy.cpkt
+9957/9957 [==============================] - 7s 675us/sample - loss: 0.0219 - accuracy: 0.9939 - val_loss: 3.7950 - val_accuracy: 0.6868
+Epoch 67/100
+9920/9957 [============================>.] - ETA: 0s - loss: 0.0175 - accuracy: 0.9947
+Epoch 00067: saving model to checkpoints/sparse_categorical_crossentropy.cpkt
+9957/9957 [==============================] - 7s 666us/sample - loss: 0.0182 - accuracy: 0.9945 - val_loss: 3.4732 - val_accuracy: 0.6671
+Epoch 68/100
+9920/9957 [============================>.] - ETA: 0s - loss: 0.0295 - accuracy: 0.9914    
+Epoch 00068: saving model to checkpoints/sparse_categorical_crossentropy.cpkt
+9957/9957 [==============================] - 7s 666us/sample - loss: 0.0294 - accuracy: 0.9915 - val_loss: 4.8742 - val_accuracy: 0.6671
+Epoch 69/100
+9920/9957 [============================>.] - ETA: 0s - loss: 0.0244 - accuracy: 0.9929    
+Epoch 00069: saving model to checkpoints/sparse_categorical_crossentropy.cpkt
+9957/9957 [==============================] - 7s 669us/sample - loss: 0.0243 - accuracy: 0.9930 - val_loss: 4.0238 - val_accuracy: 0.6755
+Epoch 70/100
+9920/9957 [============================>.] - ETA: 0s - loss: 0.0085 - accuracy: 0.9977
+Epoch 00070: saving model to checkpoints/sparse_categorical_crossentropy.cpkt
+9957/9957 [==============================] - 7s 679us/sample - loss: 0.0085 - accuracy: 0.9977 - val_loss: 4.3246 - val_accuracy: 0.7053
+Epoch 71/100
+9920/9957 [============================>.] - ETA: 0s - loss: 0.0190 - accuracy: 0.9946    
+Epoch 00071: saving model to checkpoints/sparse_categorical_crossentropy.cpkt
+9957/9957 [==============================] - 7s 670us/sample - loss: 0.0191 - accuracy: 0.9945 - val_loss: 5.3868 - val_accuracy: 0.6381
+Epoch 72/100
+9920/9957 [============================>.] - ETA: 0s - loss: 0.0187 - accuracy: 0.9957
+Epoch 00072: saving model to checkpoints/sparse_categorical_crossentropy.cpkt
+9957/9957 [==============================] - 7s 678us/sample - loss: 0.0186 - accuracy: 0.9957 - val_loss: 4.5130 - val_accuracy: 0.7025
+Epoch 73/100
+9920/9957 [============================>.] - ETA: 0s - loss: 0.0433 - accuracy: 0.9882
+Epoch 00073: saving model to checkpoints/sparse_categorical_crossentropy.cpkt
+9957/9957 [==============================] - 7s 675us/sample - loss: 0.0431 - accuracy: 0.9882 - val_loss: 3.5684 - val_accuracy: 0.6944
+Epoch 74/100
+9920/9957 [============================>.] - ETA: 0s - loss: 0.0145 - accuracy: 0.9958    
+Epoch 00074: saving model to checkpoints/sparse_categorical_crossentropy.cpkt
+9957/9957 [==============================] - 7s 680us/sample - loss: 0.0145 - accuracy: 0.9958 - val_loss: 5.6341 - val_accuracy: 0.6687
+Epoch 75/100
+9920/9957 [============================>.] - ETA: 0s - loss: 0.0040 - accuracy: 0.9985    
+Epoch 00075: saving model to checkpoints/sparse_categorical_crossentropy.cpkt
+9957/9957 [==============================] - 7s 680us/sample - loss: 0.0040 - accuracy: 0.9985 - val_loss: 4.5948 - val_accuracy: 0.6751
+Epoch 76/100
+9888/9957 [============================>.] - ETA: 0s - loss: 0.0031 - accuracy: 0.9989    
+Epoch 00076: saving model to checkpoints/sparse_categorical_crossentropy.cpkt
+9957/9957 [==============================] - 7s 670us/sample - loss: 0.0031 - accuracy: 0.9989 - val_loss: 4.8948 - val_accuracy: 0.6651
+Epoch 77/100
+9920/9957 [============================>.] - ETA: 0s - loss: 0.0322 - accuracy: 0.9916
+Epoch 00077: saving model to checkpoints/sparse_categorical_crossentropy.cpkt
+9957/9957 [==============================] - 7s 668us/sample - loss: 0.0324 - accuracy: 0.9916 - val_loss: 2.7455 - val_accuracy: 0.7057
+Epoch 78/100
+9920/9957 [============================>.] - ETA: 0s - loss: 0.0428 - accuracy: 0.9889    
+Epoch 00078: saving model to checkpoints/sparse_categorical_crossentropy.cpkt
+9957/9957 [==============================] - 7s 667us/sample - loss: 0.0427 - accuracy: 0.9890 - val_loss: 4.3466 - val_accuracy: 0.6687
+Epoch 79/100
+9920/9957 [============================>.] - ETA: 0s - loss: 0.0095 - accuracy: 0.9978
+Epoch 00079: saving model to checkpoints/sparse_categorical_crossentropy.cpkt
+9957/9957 [==============================] - 7s 671us/sample - loss: 0.0101 - accuracy: 0.9976 - val_loss: 4.9946 - val_accuracy: 0.6739
+Epoch 80/100
+9920/9957 [============================>.] - ETA: 0s - loss: 0.0022 - accuracy: 0.9994
+Epoch 00080: saving model to checkpoints/sparse_categorical_crossentropy.cpkt
+9957/9957 [==============================] - 7s 673us/sample - loss: 0.0022 - accuracy: 0.9994 - val_loss: 3.9988 - val_accuracy: 0.6940
+Epoch 81/100
+9920/9957 [============================>.] - ETA: 0s - loss: 4.4621e-04 - accuracy: 1.0000
+Epoch 00081: saving model to checkpoints/sparse_categorical_crossentropy.cpkt
+9957/9957 [==============================] - 7s 675us/sample - loss: 4.4482e-04 - accuracy: 1.0000 - val_loss: 5.2942 - val_accuracy: 0.6856
+Epoch 82/100
+9920/9957 [============================>.] - ETA: 0s - loss: 8.6225e-05 - accuracy: 1.0000
+Epoch 00082: saving model to checkpoints/sparse_categorical_crossentropy.cpkt
+9957/9957 [==============================] - 7s 680us/sample - loss: 8.6133e-05 - accuracy: 1.0000 - val_loss: 5.1372 - val_accuracy: 0.6884
+Epoch 83/100
+9920/9957 [============================>.] - ETA: 0s - loss: 2.8475e-05 - accuracy: 1.0000
+Epoch 00083: saving model to checkpoints/sparse_categorical_crossentropy.cpkt
+9957/9957 [==============================] - 7s 676us/sample - loss: 2.8521e-05 - accuracy: 1.0000 - val_loss: 5.2248 - val_accuracy: 0.6916
+Epoch 84/100
+9920/9957 [============================>.] - ETA: 0s - loss: 1.9111e-05 - accuracy: 1.0000
+Epoch 00084: saving model to checkpoints/sparse_categorical_crossentropy.cpkt
+9957/9957 [==============================] - 7s 679us/sample - loss: 1.9141e-05 - accuracy: 1.0000 - val_loss: 5.3185 - val_accuracy: 0.6924
+Epoch 85/100
+9888/9957 [============================>.] - ETA: 0s - loss: 1.3685e-05 - accuracy: 1.0000
+Epoch 00085: saving model to checkpoints/sparse_categorical_crossentropy.cpkt
+9957/9957 [==============================] - 7s 671us/sample - loss: 1.3698e-05 - accuracy: 1.0000 - val_loss: 5.4041 - val_accuracy: 0.6920
+Epoch 86/100
+9920/9957 [============================>.] - ETA: 0s - loss: 1.0362e-05 - accuracy: 1.0000
+Epoch 00086: saving model to checkpoints/sparse_categorical_crossentropy.cpkt
+9957/9957 [==============================] - 7s 667us/sample - loss: 1.0376e-05 - accuracy: 1.0000 - val_loss: 5.4869 - val_accuracy: 0.6904
+Epoch 87/100
+9920/9957 [============================>.] - ETA: 0s - loss: 8.1426e-06 - accuracy: 1.0000
+Epoch 00087: saving model to checkpoints/sparse_categorical_crossentropy.cpkt
+9957/9957 [==============================] - 7s 666us/sample - loss: 8.1513e-06 - accuracy: 1.0000 - val_loss: 5.5676 - val_accuracy: 0.6904
+Epoch 88/100
+9920/9957 [============================>.] - ETA: 0s - loss: 6.5121e-06 - accuracy: 1.0000
+Epoch 00088: saving model to checkpoints/sparse_categorical_crossentropy.cpkt
+9957/9957 [==============================] - 7s 672us/sample - loss: 6.5167e-06 - accuracy: 1.0000 - val_loss: 5.6458 - val_accuracy: 0.6900
+Epoch 89/100
+9920/9957 [============================>.] - ETA: 0s - loss: 5.2726e-06 - accuracy: 1.0000
+Epoch 00089: saving model to checkpoints/sparse_categorical_crossentropy.cpkt
+9957/9957 [==============================] - 7s 678us/sample - loss: 5.2747e-06 - accuracy: 1.0000 - val_loss: 5.7222 - val_accuracy: 0.6888
+Epoch 90/100
+9920/9957 [============================>.] - ETA: 0s - loss: 4.3020e-06 - accuracy: 1.0000
+Epoch 00090: saving model to checkpoints/sparse_categorical_crossentropy.cpkt
+9957/9957 [==============================] - 7s 668us/sample - loss: 4.3025e-06 - accuracy: 1.0000 - val_loss: 5.7970 - val_accuracy: 0.6880
+Epoch 91/100
+9920/9957 [============================>.] - ETA: 0s - loss: 3.5253e-06 - accuracy: 1.0000
+Epoch 00091: saving model to checkpoints/sparse_categorical_crossentropy.cpkt
+9957/9957 [==============================] - 7s 677us/sample - loss: 3.5250e-06 - accuracy: 1.0000 - val_loss: 5.8715 - val_accuracy: 0.6880
+Epoch 92/100
+9920/9957 [============================>.] - ETA: 0s - loss: 2.9077e-06 - accuracy: 1.0000
+Epoch 00092: saving model to checkpoints/sparse_categorical_crossentropy.cpkt
+9957/9957 [==============================] - 7s 677us/sample - loss: 2.9067e-06 - accuracy: 1.0000 - val_loss: 5.9450 - val_accuracy: 0.6892
+Epoch 93/100
+9920/9957 [============================>.] - ETA: 0s - loss: 2.4047e-06 - accuracy: 1.0000
+Epoch 00093: saving model to checkpoints/sparse_categorical_crossentropy.cpkt
+9957/9957 [==============================] - 7s 679us/sample - loss: 2.4035e-06 - accuracy: 1.0000 - val_loss: 6.0170 - val_accuracy: 0.6892
+Epoch 94/100
+9920/9957 [============================>.] - ETA: 0s - loss: 1.9838e-06 - accuracy: 1.0000
+Epoch 00094: saving model to checkpoints/sparse_categorical_crossentropy.cpkt
+9957/9957 [==============================] - 7s 675us/sample - loss: 1.9827e-06 - accuracy: 1.0000 - val_loss: 6.0881 - val_accuracy: 0.6876
+Epoch 95/100
+9888/9957 [============================>.] - ETA: 0s - loss: 1.6265e-06 - accuracy: 1.0000
+Epoch 00095: saving model to checkpoints/sparse_categorical_crossentropy.cpkt
+9957/9957 [==============================] - 7s 677us/sample - loss: 1.6254e-06 - accuracy: 1.0000 - val_loss: 6.1595 - val_accuracy: 0.6880
+Epoch 96/100
+9920/9957 [============================>.] - ETA: 0s - loss: 1.3469e-06 - accuracy: 1.0000
+Epoch 00096: saving model to checkpoints/sparse_categorical_crossentropy.cpkt
+9957/9957 [==============================] - 7s 667us/sample - loss: 1.3461e-06 - accuracy: 1.0000 - val_loss: 6.2311 - val_accuracy: 0.6880
+Epoch 97/100
+9920/9957 [============================>.] - ETA: 0s - loss: 1.1190e-06 - accuracy: 1.0000
+Epoch 00097: saving model to checkpoints/sparse_categorical_crossentropy.cpkt
+9957/9957 [==============================] - 7s 667us/sample - loss: 1.1183e-06 - accuracy: 1.0000 - val_loss: 6.3029 - val_accuracy: 0.6880
+Epoch 98/100
+9920/9957 [============================>.] - ETA: 0s - loss: 9.3130e-07 - accuracy: 1.0000
+Epoch 00098: saving model to checkpoints/sparse_categorical_crossentropy.cpkt
+9957/9957 [==============================] - 7s 667us/sample - loss: 9.3066e-07 - accuracy: 1.0000 - val_loss: 6.3737 - val_accuracy: 0.6880
+Epoch 99/100
+9920/9957 [============================>.] - ETA: 0s - loss: 7.7688e-07 - accuracy: 1.0000
+Epoch 00099: saving model to checkpoints/sparse_categorical_crossentropy.cpkt
+9957/9957 [==============================] - 7s 668us/sample - loss: 7.7630e-07 - accuracy: 1.0000 - val_loss: 6.4434 - val_accuracy: 0.6880
+Epoch 100/100
+9920/9957 [============================>.] - ETA: 0s - loss: 6.4907e-07 - accuracy: 1.0000
+Epoch 00100: saving model to checkpoints/sparse_categorical_crossentropy.cpkt
+9957/9957 [==============================] - 7s 676us/sample - loss: 6.4855e-07 - accuracy: 1.0000 - val_loss: 6.5131 - val_accuracy: 0.6880
+Model: "sequential"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+conv2d (Conv2D)              multiple                  112       
+_________________________________________________________________
+conv2d_1 (Conv2D)            multiple                  296       
+_________________________________________________________________
+max_pooling2d (MaxPooling2D) multiple                  0         
+_________________________________________________________________
+conv2d_2 (Conv2D)            multiple                  1168      
+_________________________________________________________________
+conv2d_3 (Conv2D)            multiple                  2320      
+_________________________________________________________________
+max_pooling2d_1 (MaxPooling2 multiple                  0         
+_________________________________________________________________
+conv2d_4 (Conv2D)            multiple                  4640      
+_________________________________________________________________
+conv2d_5 (Conv2D)            multiple                  9248      
+_________________________________________________________________
+max_pooling2d_2 (MaxPooling2 multiple                  0         
+_________________________________________________________________
+conv2d_6 (Conv2D)            multiple                  18496     
+_________________________________________________________________
+conv2d_7 (Conv2D)            multiple                  36928     
+_________________________________________________________________
+max_pooling2d_3 (MaxPooling2 multiple                  0         
+_________________________________________________________________
+flatten (Flatten)            multiple                  0         
+_________________________________________________________________
+dense (Dense)                multiple                  76804     
+=================================================================
+Total params: 150,012
+Trainable params: 150,012
+Non-trainable params: 0
+_________________________________________________________________
+

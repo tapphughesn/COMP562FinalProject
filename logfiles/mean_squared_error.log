@@ -1,0 +1,439 @@
+Train on 9957 samples, validate on 2487 samples
+Epoch 1/100
+9920/9957 [============================>.] - ETA: 0s - loss: 2.6807 - accuracy: 0.2652    
+Epoch 00001: saving model to checkpoints/mean_squared_error.cpkt
+9957/9957 [==============================] - 11s 1ms/sample - loss: 2.6755 - accuracy: 0.2656 - val_loss: 1.2671 - val_accuracy: 0.2610
+Epoch 2/100
+9920/9957 [============================>.] - ETA: 0s - loss: 1.2608 - accuracy: 0.2365
+Epoch 00002: saving model to checkpoints/mean_squared_error.cpkt
+9957/9957 [==============================] - 7s 682us/sample - loss: 1.2609 - accuracy: 0.2357 - val_loss: 1.3025 - val_accuracy: 0.0358
+Epoch 3/100
+9920/9957 [============================>.] - ETA: 0s - loss: 1.2420 - accuracy: 0.2720
+Epoch 00003: saving model to checkpoints/mean_squared_error.cpkt
+9957/9957 [==============================] - 7s 688us/sample - loss: 1.2422 - accuracy: 0.2710 - val_loss: 1.3433 - val_accuracy: 0.0092
+Epoch 4/100
+9920/9957 [============================>.] - ETA: 0s - loss: 1.2580 - accuracy: 0.2696
+Epoch 00004: saving model to checkpoints/mean_squared_error.cpkt
+9957/9957 [==============================] - 7s 694us/sample - loss: 1.2580 - accuracy: 0.2699 - val_loss: 1.2552 - val_accuracy: 0.4077
+Epoch 5/100
+9920/9957 [============================>.] - ETA: 0s - loss: 1.2145 - accuracy: 0.2812
+Epoch 00005: saving model to checkpoints/mean_squared_error.cpkt
+9957/9957 [==============================] - 7s 696us/sample - loss: 1.2145 - accuracy: 0.2821 - val_loss: 1.1885 - val_accuracy: 0.4580
+Epoch 6/100
+9920/9957 [============================>.] - ETA: 0s - loss: 1.2379 - accuracy: 0.2729
+Epoch 00006: saving model to checkpoints/mean_squared_error.cpkt
+9957/9957 [==============================] - 7s 682us/sample - loss: 1.2378 - accuracy: 0.2727 - val_loss: 1.2784 - val_accuracy: 0.2839
+Epoch 7/100
+9920/9957 [============================>.] - ETA: 0s - loss: 1.2398 - accuracy: 0.2666
+Epoch 00007: saving model to checkpoints/mean_squared_error.cpkt
+9957/9957 [==============================] - 7s 689us/sample - loss: 1.2395 - accuracy: 0.2666 - val_loss: 1.2166 - val_accuracy: 0.3366
+Epoch 8/100
+9920/9957 [============================>.] - ETA: 0s - loss: 1.1750 - accuracy: 0.2675
+Epoch 00008: saving model to checkpoints/mean_squared_error.cpkt
+9957/9957 [==============================] - 7s 688us/sample - loss: 1.1744 - accuracy: 0.2681 - val_loss: 1.1305 - val_accuracy: 0.2569
+Epoch 9/100
+9920/9957 [============================>.] - ETA: 0s - loss: 1.1371 - accuracy: 0.2657
+Epoch 00009: saving model to checkpoints/mean_squared_error.cpkt
+9957/9957 [==============================] - 7s 716us/sample - loss: 1.1362 - accuracy: 0.2654 - val_loss: 1.0463 - val_accuracy: 0.2726
+Epoch 10/100
+9920/9957 [============================>.] - ETA: 0s - loss: 1.2242 - accuracy: 0.2581
+Epoch 00010: saving model to checkpoints/mean_squared_error.cpkt
+9957/9957 [==============================] - 7s 682us/sample - loss: 1.2241 - accuracy: 0.2582 - val_loss: 1.3346 - val_accuracy: 0.3084
+Epoch 11/100
+9920/9957 [============================>.] - ETA: 0s - loss: 1.2316 - accuracy: 0.2529
+Epoch 00011: saving model to checkpoints/mean_squared_error.cpkt
+9957/9957 [==============================] - 7s 678us/sample - loss: 1.2314 - accuracy: 0.2532 - val_loss: 1.2881 - val_accuracy: 0.3112
+Epoch 12/100
+9920/9957 [============================>.] - ETA: 0s - loss: 1.1940 - accuracy: 0.2573
+Epoch 00012: saving model to checkpoints/mean_squared_error.cpkt
+9957/9957 [==============================] - 7s 690us/sample - loss: 1.1934 - accuracy: 0.2575 - val_loss: 1.2736 - val_accuracy: 0.3321
+Epoch 13/100
+9920/9957 [============================>.] - ETA: 0s - loss: 1.1993 - accuracy: 0.2685
+Epoch 00013: saving model to checkpoints/mean_squared_error.cpkt
+9957/9957 [==============================] - 7s 686us/sample - loss: 1.1988 - accuracy: 0.2685 - val_loss: 1.2803 - val_accuracy: 0.2292
+Epoch 14/100
+9920/9957 [============================>.] - ETA: 0s - loss: 1.1687 - accuracy: 0.2582
+Epoch 00014: saving model to checkpoints/mean_squared_error.cpkt
+9957/9957 [==============================] - 7s 692us/sample - loss: 1.1676 - accuracy: 0.2582 - val_loss: 1.2800 - val_accuracy: 0.3595
+Epoch 15/100
+9888/9957 [============================>.] - ETA: 0s - loss: 1.1403 - accuracy: 0.2627
+Epoch 00015: saving model to checkpoints/mean_squared_error.cpkt
+9957/9957 [==============================] - 7s 697us/sample - loss: 1.1389 - accuracy: 0.2635 - val_loss: 1.3262 - val_accuracy: 0.4238
+Epoch 16/100
+9920/9957 [============================>.] - ETA: 0s - loss: 1.0936 - accuracy: 0.2630
+Epoch 00016: saving model to checkpoints/mean_squared_error.cpkt
+9957/9957 [==============================] - 7s 681us/sample - loss: 1.0930 - accuracy: 0.2627 - val_loss: 1.3384 - val_accuracy: 0.2344
+Epoch 17/100
+9920/9957 [============================>.] - ETA: 0s - loss: 1.0370 - accuracy: 0.2612
+Epoch 00017: saving model to checkpoints/mean_squared_error.cpkt
+9957/9957 [==============================] - 7s 679us/sample - loss: 1.0361 - accuracy: 0.2609 - val_loss: 1.1412 - val_accuracy: 0.1946
+Epoch 18/100
+9920/9957 [============================>.] - ETA: 0s - loss: 0.8995 - accuracy: 0.2608
+Epoch 00018: saving model to checkpoints/mean_squared_error.cpkt
+9957/9957 [==============================] - 7s 684us/sample - loss: 0.8989 - accuracy: 0.2609 - val_loss: 1.0944 - val_accuracy: 0.2754
+Epoch 19/100
+9920/9957 [============================>.] - ETA: 0s - loss: 0.7958 - accuracy: 0.2720
+Epoch 00019: saving model to checkpoints/mean_squared_error.cpkt
+9957/9957 [==============================] - 7s 678us/sample - loss: 0.7948 - accuracy: 0.2721 - val_loss: 1.0382 - val_accuracy: 0.3559
+Epoch 20/100
+9920/9957 [============================>.] - ETA: 0s - loss: 0.7082 - accuracy: 0.2770
+Epoch 00020: saving model to checkpoints/mean_squared_error.cpkt
+9957/9957 [==============================] - 7s 687us/sample - loss: 0.7072 - accuracy: 0.2770 - val_loss: 1.1540 - val_accuracy: 0.3723
+Epoch 21/100
+9920/9957 [============================>.] - ETA: 0s - loss: 0.6397 - accuracy: 0.2745
+Epoch 00021: saving model to checkpoints/mean_squared_error.cpkt
+9957/9957 [==============================] - 7s 691us/sample - loss: 0.6391 - accuracy: 0.2743 - val_loss: 1.2021 - val_accuracy: 0.3374
+Epoch 22/100
+9920/9957 [============================>.] - ETA: 0s - loss: 0.5711 - accuracy: 0.2776
+Epoch 00022: saving model to checkpoints/mean_squared_error.cpkt
+9957/9957 [==============================] - 7s 695us/sample - loss: 0.5710 - accuracy: 0.2778 - val_loss: 1.3723 - val_accuracy: 0.3671
+Epoch 23/100
+9888/9957 [============================>.] - ETA: 0s - loss: 0.5186 - accuracy: 0.2718
+Epoch 00023: saving model to checkpoints/mean_squared_error.cpkt
+9957/9957 [==============================] - 7s 678us/sample - loss: 0.5186 - accuracy: 0.2730 - val_loss: 1.3471 - val_accuracy: 0.3361
+Epoch 24/100
+9920/9957 [============================>.] - ETA: 0s - loss: 0.5141 - accuracy: 0.2675
+Epoch 00024: saving model to checkpoints/mean_squared_error.cpkt
+9957/9957 [==============================] - 7s 675us/sample - loss: 0.5166 - accuracy: 0.2676 - val_loss: 1.2639 - val_accuracy: 0.3896
+Epoch 25/100
+9920/9957 [============================>.] - ETA: 0s - loss: 0.5693 - accuracy: 0.2735
+Epoch 00025: saving model to checkpoints/mean_squared_error.cpkt
+9957/9957 [==============================] - 7s 677us/sample - loss: 0.5702 - accuracy: 0.2734 - val_loss: 1.3993 - val_accuracy: 0.3490
+Epoch 26/100
+9920/9957 [============================>.] - ETA: 0s - loss: 0.4218 - accuracy: 0.2698
+Epoch 00026: saving model to checkpoints/mean_squared_error.cpkt
+9957/9957 [==============================] - 7s 677us/sample - loss: 0.4221 - accuracy: 0.2704 - val_loss: 1.3806 - val_accuracy: 0.3108
+Epoch 27/100
+9920/9957 [============================>.] - ETA: 0s - loss: 0.4030 - accuracy: 0.2729
+Epoch 00027: saving model to checkpoints/mean_squared_error.cpkt
+9957/9957 [==============================] - 7s 686us/sample - loss: 0.4036 - accuracy: 0.2727 - val_loss: 1.4207 - val_accuracy: 0.2501
+Epoch 28/100
+9920/9957 [============================>.] - ETA: 0s - loss: 0.4251 - accuracy: 0.2677
+Epoch 00028: saving model to checkpoints/mean_squared_error.cpkt
+9957/9957 [==============================] - 7s 676us/sample - loss: 0.4255 - accuracy: 0.2680 - val_loss: 1.3033 - val_accuracy: 0.3647
+Epoch 29/100
+9920/9957 [============================>.] - ETA: 0s - loss: 0.4272 - accuracy: 0.2600
+Epoch 00029: saving model to checkpoints/mean_squared_error.cpkt
+9957/9957 [==============================] - 7s 684us/sample - loss: 0.4276 - accuracy: 0.2604 - val_loss: 1.3165 - val_accuracy: 0.4544
+Epoch 30/100
+9920/9957 [============================>.] - ETA: 0s - loss: 0.3711 - accuracy: 0.2612
+Epoch 00030: saving model to checkpoints/mean_squared_error.cpkt
+9957/9957 [==============================] - 7s 688us/sample - loss: 0.3716 - accuracy: 0.2611 - val_loss: 1.3340 - val_accuracy: 0.3884
+Epoch 31/100
+9920/9957 [============================>.] - ETA: 0s - loss: 0.3233 - accuracy: 0.2644
+Epoch 00031: saving model to checkpoints/mean_squared_error.cpkt
+9957/9957 [==============================] - 7s 688us/sample - loss: 0.3240 - accuracy: 0.2648 - val_loss: 1.3183 - val_accuracy: 0.3418
+Epoch 32/100
+9920/9957 [============================>.] - ETA: 0s - loss: 0.3090 - accuracy: 0.2631
+Epoch 00032: saving model to checkpoints/mean_squared_error.cpkt
+9957/9957 [==============================] - 7s 689us/sample - loss: 0.3097 - accuracy: 0.2633 - val_loss: 1.2653 - val_accuracy: 0.2835
+Epoch 33/100
+9888/9957 [============================>.] - ETA: 0s - loss: 0.2936 - accuracy: 0.2615
+Epoch 00033: saving model to checkpoints/mean_squared_error.cpkt
+9957/9957 [==============================] - 7s 675us/sample - loss: 0.2948 - accuracy: 0.2610 - val_loss: 1.2891 - val_accuracy: 0.2690
+Epoch 34/100
+9920/9957 [============================>.] - ETA: 0s - loss: 0.3124 - accuracy: 0.2619
+Epoch 00034: saving model to checkpoints/mean_squared_error.cpkt
+9957/9957 [==============================] - 7s 675us/sample - loss: 0.3130 - accuracy: 0.2613 - val_loss: 1.3096 - val_accuracy: 0.1982
+Epoch 35/100
+9920/9957 [============================>.] - ETA: 0s - loss: 0.3100 - accuracy: 0.2626
+Epoch 00035: saving model to checkpoints/mean_squared_error.cpkt
+9957/9957 [==============================] - 7s 680us/sample - loss: 0.3104 - accuracy: 0.2623 - val_loss: 1.2190 - val_accuracy: 0.2380
+Epoch 36/100
+9920/9957 [============================>.] - ETA: 0s - loss: 0.2769 - accuracy: 0.2626
+Epoch 00036: saving model to checkpoints/mean_squared_error.cpkt
+9957/9957 [==============================] - 7s 684us/sample - loss: 0.2777 - accuracy: 0.2625 - val_loss: 1.2608 - val_accuracy: 0.2465
+Epoch 37/100
+9920/9957 [============================>.] - ETA: 0s - loss: 0.2826 - accuracy: 0.2595
+Epoch 00037: saving model to checkpoints/mean_squared_error.cpkt
+9957/9957 [==============================] - 7s 685us/sample - loss: 0.2838 - accuracy: 0.2591 - val_loss: 1.3422 - val_accuracy: 0.2372
+Epoch 38/100
+9920/9957 [============================>.] - ETA: 0s - loss: 0.2652 - accuracy: 0.2636
+Epoch 00038: saving model to checkpoints/mean_squared_error.cpkt
+9957/9957 [==============================] - 7s 674us/sample - loss: 0.2674 - accuracy: 0.2635 - val_loss: 1.1837 - val_accuracy: 0.2646
+Epoch 39/100
+9920/9957 [============================>.] - ETA: 0s - loss: 0.3032 - accuracy: 0.2558
+Epoch 00039: saving model to checkpoints/mean_squared_error.cpkt
+9957/9957 [==============================] - 7s 685us/sample - loss: 0.3052 - accuracy: 0.2566 - val_loss: 1.3329 - val_accuracy: 0.2859
+Epoch 40/100
+9920/9957 [============================>.] - ETA: 0s - loss: 0.3273 - accuracy: 0.2545
+Epoch 00040: saving model to checkpoints/mean_squared_error.cpkt
+9957/9957 [==============================] - 7s 689us/sample - loss: 0.3283 - accuracy: 0.2540 - val_loss: 1.2136 - val_accuracy: 0.2593
+Epoch 41/100
+9920/9957 [============================>.] - ETA: 0s - loss: 0.2757 - accuracy: 0.2559
+Epoch 00041: saving model to checkpoints/mean_squared_error.cpkt
+9957/9957 [==============================] - 7s 687us/sample - loss: 0.2768 - accuracy: 0.2557 - val_loss: 1.4428 - val_accuracy: 0.2598
+Epoch 42/100
+9920/9957 [============================>.] - ETA: 0s - loss: 0.2398 - accuracy: 0.2576
+Epoch 00042: saving model to checkpoints/mean_squared_error.cpkt
+9957/9957 [==============================] - 7s 691us/sample - loss: 0.2398 - accuracy: 0.2576 - val_loss: 1.3324 - val_accuracy: 0.2722
+Epoch 43/100
+9952/9957 [============================>.] - ETA: 0s - loss: 0.2230 - accuracy: 0.2577
+Epoch 00043: saving model to checkpoints/mean_squared_error.cpkt
+9957/9957 [==============================] - 7s 681us/sample - loss: 0.2233 - accuracy: 0.2579 - val_loss: 1.3497 - val_accuracy: 0.2300
+Epoch 44/100
+9920/9957 [============================>.] - ETA: 0s - loss: 0.1928 - accuracy: 0.2552
+Epoch 00044: saving model to checkpoints/mean_squared_error.cpkt
+9957/9957 [==============================] - 7s 681us/sample - loss: 0.1927 - accuracy: 0.2554 - val_loss: 1.1925 - val_accuracy: 0.2614
+Epoch 45/100
+9920/9957 [============================>.] - ETA: 0s - loss: 0.1827 - accuracy: 0.2618
+Epoch 00045: saving model to checkpoints/mean_squared_error.cpkt
+9957/9957 [==============================] - 7s 678us/sample - loss: 0.1830 - accuracy: 0.2615 - val_loss: 1.2788 - val_accuracy: 0.2706
+Epoch 46/100
+9920/9957 [============================>.] - ETA: 0s - loss: 0.1881 - accuracy: 0.2647
+Epoch 00046: saving model to checkpoints/mean_squared_error.cpkt
+9957/9957 [==============================] - 7s 680us/sample - loss: 0.1884 - accuracy: 0.2645 - val_loss: 1.5719 - val_accuracy: 0.2465
+Epoch 47/100
+9920/9957 [============================>.] - ETA: 0s - loss: 0.2101 - accuracy: 0.2570
+Epoch 00047: saving model to checkpoints/mean_squared_error.cpkt
+9957/9957 [==============================] - 7s 678us/sample - loss: 0.2106 - accuracy: 0.2569 - val_loss: 1.3322 - val_accuracy: 0.2553
+Epoch 48/100
+9920/9957 [============================>.] - ETA: 0s - loss: 0.1949 - accuracy: 0.2547
+Epoch 00048: saving model to checkpoints/mean_squared_error.cpkt
+9957/9957 [==============================] - 7s 685us/sample - loss: 0.1970 - accuracy: 0.2548 - val_loss: 1.3840 - val_accuracy: 0.2835
+Epoch 49/100
+9920/9957 [============================>.] - ETA: 0s - loss: 0.2436 - accuracy: 0.2561
+Epoch 00049: saving model to checkpoints/mean_squared_error.cpkt
+9957/9957 [==============================] - 7s 677us/sample - loss: 0.2453 - accuracy: 0.2569 - val_loss: 1.2884 - val_accuracy: 0.2593
+Epoch 50/100
+9920/9957 [============================>.] - ETA: 0s - loss: 0.2323 - accuracy: 0.2568
+Epoch 00050: saving model to checkpoints/mean_squared_error.cpkt
+9957/9957 [==============================] - 7s 686us/sample - loss: 0.2338 - accuracy: 0.2567 - val_loss: 1.1761 - val_accuracy: 0.2264
+Epoch 51/100
+9920/9957 [============================>.] - ETA: 0s - loss: 0.2184 - accuracy: 0.2536
+Epoch 00051: saving model to checkpoints/mean_squared_error.cpkt
+9957/9957 [==============================] - 7s 685us/sample - loss: 0.2189 - accuracy: 0.2534 - val_loss: 1.1875 - val_accuracy: 0.2405
+Epoch 52/100
+9888/9957 [============================>.] - ETA: 0s - loss: 0.1888 - accuracy: 0.2548
+Epoch 00052: saving model to checkpoints/mean_squared_error.cpkt
+9957/9957 [==============================] - 7s 682us/sample - loss: 0.1893 - accuracy: 0.2546 - val_loss: 1.4394 - val_accuracy: 0.2706
+Epoch 53/100
+9920/9957 [============================>.] - ETA: 0s - loss: 0.1845 - accuracy: 0.2620
+Epoch 00053: saving model to checkpoints/mean_squared_error.cpkt
+9957/9957 [==============================] - 7s 688us/sample - loss: 0.1854 - accuracy: 0.2619 - val_loss: 1.3604 - val_accuracy: 0.2396
+Epoch 54/100
+9888/9957 [============================>.] - ETA: 0s - loss: 0.1872 - accuracy: 0.2546
+Epoch 00054: saving model to checkpoints/mean_squared_error.cpkt
+9957/9957 [==============================] - 7s 681us/sample - loss: 0.1873 - accuracy: 0.2554 - val_loss: 1.2886 - val_accuracy: 0.2525
+Epoch 55/100
+9920/9957 [============================>.] - ETA: 0s - loss: 0.1855 - accuracy: 0.2512
+Epoch 00055: saving model to checkpoints/mean_squared_error.cpkt
+9957/9957 [==============================] - 7s 677us/sample - loss: 0.1864 - accuracy: 0.2519 - val_loss: 1.3512 - val_accuracy: 0.3140
+Epoch 56/100
+9920/9957 [============================>.] - ETA: 0s - loss: 0.1650 - accuracy: 0.2505
+Epoch 00056: saving model to checkpoints/mean_squared_error.cpkt
+9957/9957 [==============================] - 7s 679us/sample - loss: 0.1654 - accuracy: 0.2508 - val_loss: 1.4273 - val_accuracy: 0.3160
+Epoch 57/100
+9920/9957 [============================>.] - ETA: 0s - loss: 0.1667 - accuracy: 0.2571
+Epoch 00057: saving model to checkpoints/mean_squared_error.cpkt
+9957/9957 [==============================] - 7s 681us/sample - loss: 0.1674 - accuracy: 0.2572 - val_loss: 1.2573 - val_accuracy: 0.2791
+Epoch 58/100
+9920/9957 [============================>.] - ETA: 0s - loss: 0.1877 - accuracy: 0.2589
+Epoch 00058: saving model to checkpoints/mean_squared_error.cpkt
+9957/9957 [==============================] - 7s 681us/sample - loss: 0.1876 - accuracy: 0.2591 - val_loss: 1.2487 - val_accuracy: 0.2589
+Epoch 59/100
+9920/9957 [============================>.] - ETA: 0s - loss: 0.1785 - accuracy: 0.2603
+Epoch 00059: saving model to checkpoints/mean_squared_error.cpkt
+9957/9957 [==============================] - 7s 675us/sample - loss: 0.1782 - accuracy: 0.2601 - val_loss: 1.2979 - val_accuracy: 0.2682
+Epoch 60/100
+9920/9957 [============================>.] - ETA: 0s - loss: 0.1782 - accuracy: 0.2567
+Epoch 00060: saving model to checkpoints/mean_squared_error.cpkt
+9957/9957 [==============================] - 7s 685us/sample - loss: 0.1791 - accuracy: 0.2569 - val_loss: 1.2094 - val_accuracy: 0.3044
+Epoch 61/100
+9920/9957 [============================>.] - ETA: 0s - loss: 0.1749 - accuracy: 0.2618
+Epoch 00061: saving model to checkpoints/mean_squared_error.cpkt
+9957/9957 [==============================] - 7s 691us/sample - loss: 0.1756 - accuracy: 0.2620 - val_loss: 1.3258 - val_accuracy: 0.2823
+Epoch 62/100
+9920/9957 [============================>.] - ETA: 0s - loss: 0.1905 - accuracy: 0.2561
+Epoch 00062: saving model to checkpoints/mean_squared_error.cpkt
+9957/9957 [==============================] - 7s 693us/sample - loss: 0.1907 - accuracy: 0.2559 - val_loss: 1.4892 - val_accuracy: 0.2698
+Epoch 63/100
+9888/9957 [============================>.] - ETA: 0s - loss: 0.2047 - accuracy: 0.2528
+Epoch 00063: saving model to checkpoints/mean_squared_error.cpkt
+9957/9957 [==============================] - 7s 685us/sample - loss: 0.2047 - accuracy: 0.2536 - val_loss: 1.4098 - val_accuracy: 0.2702
+Epoch 64/100
+9888/9957 [============================>.] - ETA: 0s - loss: 0.1981 - accuracy: 0.2604
+Epoch 00064: saving model to checkpoints/mean_squared_error.cpkt
+9957/9957 [==============================] - 7s 690us/sample - loss: 0.1986 - accuracy: 0.2602 - val_loss: 1.2596 - val_accuracy: 0.2541
+Epoch 65/100
+9920/9957 [============================>.] - ETA: 0s - loss: 0.1749 - accuracy: 0.2593
+Epoch 00065: saving model to checkpoints/mean_squared_error.cpkt
+9957/9957 [==============================] - 7s 677us/sample - loss: 0.1758 - accuracy: 0.2592 - val_loss: 1.1757 - val_accuracy: 0.2903
+Epoch 66/100
+9920/9957 [============================>.] - ETA: 0s - loss: 0.1634 - accuracy: 0.2622
+Epoch 00066: saving model to checkpoints/mean_squared_error.cpkt
+9957/9957 [==============================] - 7s 685us/sample - loss: 0.1641 - accuracy: 0.2620 - val_loss: 1.2061 - val_accuracy: 0.2368
+Epoch 67/100
+9920/9957 [============================>.] - ETA: 0s - loss: 0.1453 - accuracy: 0.2597
+Epoch 00067: saving model to checkpoints/mean_squared_error.cpkt
+9957/9957 [==============================] - 7s 682us/sample - loss: 0.1454 - accuracy: 0.2598 - val_loss: 1.2890 - val_accuracy: 0.2441
+Epoch 68/100
+9920/9957 [============================>.] - ETA: 0s - loss: 0.1269 - accuracy: 0.2580
+Epoch 00068: saving model to checkpoints/mean_squared_error.cpkt
+9957/9957 [==============================] - 7s 696us/sample - loss: 0.1269 - accuracy: 0.2580 - val_loss: 1.3035 - val_accuracy: 0.2473
+Epoch 69/100
+9920/9957 [============================>.] - ETA: 0s - loss: 0.1185 - accuracy: 0.2520
+Epoch 00069: saving model to checkpoints/mean_squared_error.cpkt
+9957/9957 [==============================] - 7s 680us/sample - loss: 0.1185 - accuracy: 0.2521 - val_loss: 1.2868 - val_accuracy: 0.2485
+Epoch 70/100
+9920/9957 [============================>.] - ETA: 0s - loss: 0.1191 - accuracy: 0.2581
+Epoch 00070: saving model to checkpoints/mean_squared_error.cpkt
+9957/9957 [==============================] - 7s 694us/sample - loss: 0.1192 - accuracy: 0.2581 - val_loss: 1.3152 - val_accuracy: 0.2602
+Epoch 71/100
+9920/9957 [============================>.] - ETA: 0s - loss: 0.1193 - accuracy: 0.2559
+Epoch 00071: saving model to checkpoints/mean_squared_error.cpkt
+9957/9957 [==============================] - 7s 683us/sample - loss: 0.1202 - accuracy: 0.2560 - val_loss: 1.3081 - val_accuracy: 0.2332
+Epoch 72/100
+9920/9957 [============================>.] - ETA: 0s - loss: 0.1460 - accuracy: 0.2519
+Epoch 00072: saving model to checkpoints/mean_squared_error.cpkt
+9957/9957 [==============================] - 7s 689us/sample - loss: 0.1478 - accuracy: 0.2518 - val_loss: 1.2848 - val_accuracy: 0.2682
+Epoch 73/100
+9888/9957 [============================>.] - ETA: 0s - loss: 0.2134 - accuracy: 0.2568
+Epoch 00073: saving model to checkpoints/mean_squared_error.cpkt
+9957/9957 [==============================] - 7s 686us/sample - loss: 0.2146 - accuracy: 0.2566 - val_loss: 1.3053 - val_accuracy: 0.2734
+Epoch 74/100
+9888/9957 [============================>.] - ETA: 0s - loss: 0.1665 - accuracy: 0.2547
+Epoch 00074: saving model to checkpoints/mean_squared_error.cpkt
+9957/9957 [==============================] - 7s 675us/sample - loss: 0.1675 - accuracy: 0.2542 - val_loss: 1.3946 - val_accuracy: 0.2766
+Epoch 75/100
+9920/9957 [============================>.] - ETA: 0s - loss: 0.1354 - accuracy: 0.2564
+Epoch 00075: saving model to checkpoints/mean_squared_error.cpkt
+9957/9957 [==============================] - 7s 676us/sample - loss: 0.1360 - accuracy: 0.2561 - val_loss: 1.2625 - val_accuracy: 0.2585
+Epoch 76/100
+9920/9957 [============================>.] - ETA: 0s - loss: 0.1288 - accuracy: 0.2516
+Epoch 00076: saving model to checkpoints/mean_squared_error.cpkt
+9957/9957 [==============================] - 7s 679us/sample - loss: 0.1293 - accuracy: 0.2517 - val_loss: 1.2601 - val_accuracy: 0.2103
+Epoch 77/100
+9920/9957 [============================>.] - ETA: 0s - loss: 0.1374 - accuracy: 0.2579
+Epoch 00077: saving model to checkpoints/mean_squared_error.cpkt
+9957/9957 [==============================] - 7s 679us/sample - loss: 0.1380 - accuracy: 0.2577 - val_loss: 1.2387 - val_accuracy: 0.2384
+Epoch 78/100
+9920/9957 [============================>.] - ETA: 0s - loss: 0.1336 - accuracy: 0.2569
+Epoch 00078: saving model to checkpoints/mean_squared_error.cpkt
+9957/9957 [==============================] - 7s 682us/sample - loss: 0.1341 - accuracy: 0.2570 - val_loss: 1.2839 - val_accuracy: 0.2545
+Epoch 79/100
+9920/9957 [============================>.] - ETA: 0s - loss: 0.1316 - accuracy: 0.2550
+Epoch 00079: saving model to checkpoints/mean_squared_error.cpkt
+9957/9957 [==============================] - 7s 676us/sample - loss: 0.1318 - accuracy: 0.2546 - val_loss: 1.2732 - val_accuracy: 0.2360
+Epoch 80/100
+9920/9957 [============================>.] - ETA: 0s - loss: 0.1266 - accuracy: 0.2574
+Epoch 00080: saving model to checkpoints/mean_squared_error.cpkt
+9957/9957 [==============================] - 7s 678us/sample - loss: 0.1267 - accuracy: 0.2572 - val_loss: 1.2970 - val_accuracy: 0.2328
+Epoch 81/100
+9920/9957 [============================>.] - ETA: 0s - loss: 0.1234 - accuracy: 0.2552
+Epoch 00081: saving model to checkpoints/mean_squared_error.cpkt
+9957/9957 [==============================] - 7s 677us/sample - loss: 0.1238 - accuracy: 0.2554 - val_loss: 1.2157 - val_accuracy: 0.2312
+Epoch 82/100
+9920/9957 [============================>.] - ETA: 0s - loss: 0.1165 - accuracy: 0.2572
+Epoch 00082: saving model to checkpoints/mean_squared_error.cpkt
+9957/9957 [==============================] - 7s 678us/sample - loss: 0.1167 - accuracy: 0.2571 - val_loss: 1.2854 - val_accuracy: 0.2191
+Epoch 83/100
+9920/9957 [============================>.] - ETA: 0s - loss: 0.1121 - accuracy: 0.2604
+Epoch 00083: saving model to checkpoints/mean_squared_error.cpkt
+9957/9957 [==============================] - 7s 687us/sample - loss: 0.1124 - accuracy: 0.2599 - val_loss: 1.3684 - val_accuracy: 0.2199
+Epoch 84/100
+9920/9957 [============================>.] - ETA: 0s - loss: 0.1201 - accuracy: 0.2521
+Epoch 00084: saving model to checkpoints/mean_squared_error.cpkt
+9957/9957 [==============================] - 7s 676us/sample - loss: 0.1206 - accuracy: 0.2520 - val_loss: 1.3027 - val_accuracy: 0.2067
+Epoch 85/100
+9920/9957 [============================>.] - ETA: 0s - loss: 0.1201 - accuracy: 0.2507
+Epoch 00085: saving model to checkpoints/mean_squared_error.cpkt
+9957/9957 [==============================] - 7s 675us/sample - loss: 0.1202 - accuracy: 0.2505 - val_loss: 1.2307 - val_accuracy: 0.2453
+Epoch 86/100
+9920/9957 [============================>.] - ETA: 0s - loss: 0.1200 - accuracy: 0.2550
+Epoch 00086: saving model to checkpoints/mean_squared_error.cpkt
+9957/9957 [==============================] - 7s 674us/sample - loss: 0.1202 - accuracy: 0.2549 - val_loss: 1.2422 - val_accuracy: 0.2485
+Epoch 87/100
+9920/9957 [============================>.] - ETA: 0s - loss: 0.1388 - accuracy: 0.2463
+Epoch 00087: saving model to checkpoints/mean_squared_error.cpkt
+9957/9957 [==============================] - 7s 675us/sample - loss: 0.1386 - accuracy: 0.2457 - val_loss: 1.1931 - val_accuracy: 0.2525
+Epoch 88/100
+9920/9957 [============================>.] - ETA: 0s - loss: 0.1419 - accuracy: 0.2566
+Epoch 00088: saving model to checkpoints/mean_squared_error.cpkt
+9957/9957 [==============================] - 7s 681us/sample - loss: 0.1417 - accuracy: 0.2565 - val_loss: 1.1825 - val_accuracy: 0.2276
+Epoch 89/100
+9920/9957 [============================>.] - ETA: 0s - loss: 0.1423 - accuracy: 0.2614
+Epoch 00089: saving model to checkpoints/mean_squared_error.cpkt
+9957/9957 [==============================] - 7s 671us/sample - loss: 0.1423 - accuracy: 0.2614 - val_loss: 1.2631 - val_accuracy: 0.2216
+Epoch 90/100
+9920/9957 [============================>.] - ETA: 0s - loss: 0.1331 - accuracy: 0.2596
+Epoch 00090: saving model to checkpoints/mean_squared_error.cpkt
+9957/9957 [==============================] - 7s 681us/sample - loss: 0.1331 - accuracy: 0.2595 - val_loss: 1.2338 - val_accuracy: 0.2276
+Epoch 91/100
+9920/9957 [============================>.] - ETA: 0s - loss: 0.1149 - accuracy: 0.2593
+Epoch 00091: saving model to checkpoints/mean_squared_error.cpkt
+9957/9957 [==============================] - 7s 686us/sample - loss: 0.1150 - accuracy: 0.2594 - val_loss: 1.2401 - val_accuracy: 0.2376
+Epoch 92/100
+9920/9957 [============================>.] - ETA: 0s - loss: 0.1131 - accuracy: 0.2531
+Epoch 00092: saving model to checkpoints/mean_squared_error.cpkt
+9957/9957 [==============================] - 7s 677us/sample - loss: 0.1137 - accuracy: 0.2532 - val_loss: 1.2469 - val_accuracy: 0.2746
+Epoch 93/100
+9920/9957 [============================>.] - ETA: 0s - loss: 0.1092 - accuracy: 0.2610
+Epoch 00093: saving model to checkpoints/mean_squared_error.cpkt
+9957/9957 [==============================] - 7s 680us/sample - loss: 0.1095 - accuracy: 0.2610 - val_loss: 1.2532 - val_accuracy: 0.2505
+Epoch 94/100
+9888/9957 [============================>.] - ETA: 0s - loss: 0.1087 - accuracy: 0.2540
+Epoch 00094: saving model to checkpoints/mean_squared_error.cpkt
+9957/9957 [==============================] - 7s 680us/sample - loss: 0.1087 - accuracy: 0.2540 - val_loss: 1.2601 - val_accuracy: 0.2545
+Epoch 95/100
+9920/9957 [============================>.] - ETA: 0s - loss: 0.1125 - accuracy: 0.2566
+Epoch 00095: saving model to checkpoints/mean_squared_error.cpkt
+9957/9957 [==============================] - 7s 677us/sample - loss: 0.1124 - accuracy: 0.2565 - val_loss: 1.2128 - val_accuracy: 0.2485
+Epoch 96/100
+9920/9957 [============================>.] - ETA: 0s - loss: 0.1024 - accuracy: 0.2601
+Epoch 00096: saving model to checkpoints/mean_squared_error.cpkt
+9957/9957 [==============================] - 7s 677us/sample - loss: 0.1023 - accuracy: 0.2600 - val_loss: 1.2048 - val_accuracy: 0.2746
+Epoch 97/100
+9920/9957 [============================>.] - ETA: 0s - loss: 0.1035 - accuracy: 0.2511
+Epoch 00097: saving model to checkpoints/mean_squared_error.cpkt
+9957/9957 [==============================] - 7s 675us/sample - loss: 0.1038 - accuracy: 0.2510 - val_loss: 1.2439 - val_accuracy: 0.2714
+Epoch 98/100
+9920/9957 [============================>.] - ETA: 0s - loss: 0.0937 - accuracy: 0.2588
+Epoch 00098: saving model to checkpoints/mean_squared_error.cpkt
+9957/9957 [==============================] - 7s 677us/sample - loss: 0.0937 - accuracy: 0.2585 - val_loss: 1.2303 - val_accuracy: 0.2529
+Epoch 99/100
+9920/9957 [============================>.] - ETA: 0s - loss: 0.0917 - accuracy: 0.2593
+Epoch 00099: saving model to checkpoints/mean_squared_error.cpkt
+9957/9957 [==============================] - 7s 682us/sample - loss: 0.0918 - accuracy: 0.2588 - val_loss: 1.2310 - val_accuracy: 0.2445
+Epoch 100/100
+9920/9957 [============================>.] - ETA: 0s - loss: 0.0985 - accuracy: 0.2633
+Epoch 00100: saving model to checkpoints/mean_squared_error.cpkt
+9957/9957 [==============================] - 7s 676us/sample - loss: 0.0987 - accuracy: 0.2638 - val_loss: 1.1402 - val_accuracy: 0.2465
+Model: "sequential"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+conv2d (Conv2D)              multiple                  112       
+_________________________________________________________________
+conv2d_1 (Conv2D)            multiple                  296       
+_________________________________________________________________
+max_pooling2d (MaxPooling2D) multiple                  0         
+_________________________________________________________________
+conv2d_2 (Conv2D)            multiple                  1168      
+_________________________________________________________________
+conv2d_3 (Conv2D)            multiple                  2320      
+_________________________________________________________________
+max_pooling2d_1 (MaxPooling2 multiple                  0         
+_________________________________________________________________
+conv2d_4 (Conv2D)            multiple                  4640      
+_________________________________________________________________
+conv2d_5 (Conv2D)            multiple                  9248      
+_________________________________________________________________
+max_pooling2d_2 (MaxPooling2 multiple                  0         
+_________________________________________________________________
+conv2d_6 (Conv2D)            multiple                  18496     
+_________________________________________________________________
+conv2d_7 (Conv2D)            multiple                  36928     
+_________________________________________________________________
+max_pooling2d_3 (MaxPooling2 multiple                  0         
+_________________________________________________________________
+flatten (Flatten)            multiple                  0         
+_________________________________________________________________
+dense (Dense)                multiple                  76804     
+=================================================================
+Total params: 150,012
+Trainable params: 150,012
+Non-trainable params: 0
+_________________________________________________________________
+None
+

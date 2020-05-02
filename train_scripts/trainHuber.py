@@ -23,12 +23,12 @@ model = keras.Sequential([
     keras.layers.Conv2D(64, 3, padding = 'same', activation='relu'),
     keras.layers.MaxPool2D(pool_size = 2, padding = 'same'), 
     keras.layers.Flatten(input_shape=(15,20,64)),
-    keras.layers.Dense(4, activation="softmax")
+    keras.layers.Dense(4)
     ])
 
 # Compile the model
 model.compile(optimizer='adam', 
-        loss = tf.keras.losses.Huber,
+        loss = tf.keras.losses.Huber(),
         metrics = ['accuracy'])
 
 
@@ -77,12 +77,12 @@ test_labels = np.asarray(test_labels).astype(np.float16)
 
 # Create checkpoint to save weights
 cp_callback = tf.keras.callbacks.ModelCheckpoint(
-        filepath="checkpoints/cp_" + datetime.now().strftime("%m-%d-%Y-%H:%M:%S") + ".ckpt",
+        filepath="checkpoints/huber.ckpt",
         save_weights_only = True,
         verbose = 1)
 
 # use Model.fit() to train the model
-model.fit(train_imgs, train_labels, validation_data=(test_imgs, test_labels), epochs=1, verbose=1, callbacks=[cp_callback], shuffle=False)
+model.fit(train_imgs, train_labels, validation_data=(test_imgs, test_labels), epochs=100, verbose=1, callbacks=[cp_callback], shuffle=False)
 
 # print model summary for information abt the model
 print(model.summary())
